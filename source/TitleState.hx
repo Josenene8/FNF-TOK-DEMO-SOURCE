@@ -341,7 +341,7 @@ class TitleState extends MusicBeatState
 
 			// If it's Friday according to da clock
 			if (Date.now().getDay() == 5)
-				NGio
+				
 			#end
 
 			if (FlxG.save.data.flashing)
