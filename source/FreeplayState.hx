@@ -139,6 +139,11 @@ class FreeplayState extends MusicBeatState
 
 			trace(md);
 		 */
+		
+		 #if mobileC
+		 addVirtualPad(FULL, A_B);
+		 #end
+			 
 
 		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, (Main.watermarks ? "FNF TOK F3 DEMO BUILD AUGUST 1 2021 "  : ""), 12);
 		versionShit.scrollFactor.set();
